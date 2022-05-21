@@ -1,0 +1,21 @@
+:root{
+    --azul-escuro: #0C4B87;
+    --cinza-claro: #d1d1d1;
+    --cinza-medio: #b4b4b4;
+    --cinza-escuro: #454545;
+    --color-font-primary: #f5eeee;
+    --icone-menu:  #0c4a87;
+    --Open-sans: 'Open Sans', sans-serif;
+}
+
+html{
+    font-family: var(--Open-sans);
+    
+
+}
+
+
+
+
+
+

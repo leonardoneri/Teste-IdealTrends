@@ -1,1 +1,18 @@
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.conteudo__slider{
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .conteudo__slider{
+        width: calc(65% - 6px) ;
+        height: calc(25% - 66px);
+    }
+    
+    
+}

@@ -56,7 +56,10 @@
 	z-index:5;
 	overflow:hidden;
 }
-.nivo-box img { display:block; }
+.nivo-box img { 
+	display:block; 
+
+}
 
 /* Caption styles */
 .nivo-caption {
@@ -88,11 +91,21 @@
     display:none;
 }
 /* Direction nav styles (e.g. Next & Prev) */
+
 .nivo-directionNav a {
 	position:absolute;
-	top:45%;
+	top:35%;
 	z-index:9;
 	cursor:pointer;
+
+	box-sizing: border-box;
+
+	margin: 0rem 3rem;
+
+	font-size: 40px;
+	line-height: normal;
+	color: var(--color-font-primary);
+
 }
 .nivo-prevNav {
 	left:0px;

@@ -2,17 +2,125 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .conteudo__slider{
     width: 100%;
+    
 }
+
+
+
+
+.conteudo__principal--titulo, .destaque__principal-titulo{
+    color: var(--cinza-medio);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding-top: 10px;
+    margin-bottom: 8px;
+}
+
+.conteudo__principal h3{
+    color: var(--cinza-medio);
+    font-size: 0.87rem;
+
+    margin-bottom: 12px;
+
+}
+
+.conteudo__principal ul li{
+    color: var(--cinza-medio);
+    list-style-type: initial;
+
+    margin-left: 1.2rem;
+    padding-bottom: 0.2rem;
+    
+}
+.conteudo__principal p{
+    color: var(--cinza-medio);
+    padding-bottom: 1rem;
+
+}
+
+.destaque__container{
+    width: 100%;
+}
+
+.destaque{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.destaque__box{
+    width: 156px;
+    height: 163px;
+    padding-top: 1rem;
+
+
+}
+
+.destaque__box figcaption{
+    color: var(--cinza-medio);
+    font-size: 0.9rem;
+    
+    line-height: normal;
+}
+
+@media screen and (min-width: 768px){
+    .conteudo__principal{
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteudo__principal--img{
+        width: 325px;
+        height: 212px;
+    }
+    .container{
+        padding: 1rem 1rem 0rem 1rem;
+    }
+}
+
 
 @media screen and (min-width: 1024px) {
     .conteudo__slider{
         width: calc(65% - 6px) ;
         height: calc(25% - 66px);
     }
+
+    .conteudo__principal{
+        width: calc(65% - 6px) ;
+        height: calc(25% - 66px);
+        display: flex;
+        justify-content: space-between;
+    }
+    .conteudo__principal--img{
+        width: 325px;
+        height: 212px;
+    }
+    
+    .destaque__container{
+        width: calc(65% - 6px) ;
+        height: calc(25% - 66px);
+
+    }
+    .destaque{
+        justify-content: space-between;
+
+    }
+
+    .destaque__box{
+        width: 12.25rem;
+        height: 10.18rem;
+    }
+
+
     
     
 }

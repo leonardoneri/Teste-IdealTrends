@@ -1,7 +1,7 @@
 :root{
     --azul-escuro: #100778;
     --cinza-claro: #d1d1d1;
-    --cinza-medio: #b4b4b4;
+    --cinza-medio: #c1c1c1;
     --cinza-escuro: #454545;
     --color-font-primary: #f5eeee;
     --icone-menu:  #0c4a87;
@@ -11,7 +11,12 @@
 html{
     font-family: var(--Open-sans);
     
+}
 
+.container{
+    padding: 0.5rem;
+    width: 100%;
+    
 }
 
 

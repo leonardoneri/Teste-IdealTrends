@@ -6,9 +6,6 @@
     padding-top: 1rem;
     padding-bottom: 0.5rem;
 
-    background-color: rgb(3, 137, 255);
-    
-
 }
 
 .navegacao__logo{
@@ -21,7 +18,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-
 }
 .navegacao__item{
     padding: 5px;
@@ -44,7 +40,6 @@
     visibility: hidden;
     display: none;
     position: absolute;
-
     margin: 12px 0px 0px 0px;
     
 }
@@ -54,10 +49,12 @@
     visibility: visible;
     display: block;
     z-index: 100;
+    
 
 }
 
-.navegacao__menu--sub ,.navegacao__menu--sub--interno{
+
+.navegacao__menu--sub, .navegacao__menu--sub--interno{
     background-color: var(--azul-escuro);
     color: var(--color-font-primary);
 
@@ -72,6 +69,10 @@
 
 
 /*SUBMENU 2*/
+.navegacao__menu--sub--interno li{
+    display: none;
+    visibility: hidden;
+}
 
 
 
